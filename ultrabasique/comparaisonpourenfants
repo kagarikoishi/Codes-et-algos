@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (void){
+    int i = 0;
+    int b = 0;
+    printf("\nEntrez un nombre i : ");
+    scanf("%d",&i);
+    printf("\nEntrez un nombre b qui sera comparé à i : ");
+    scanf("%d",&b);
+    if(i > b){printf("\nLe nombre i %d est plus grand que le nombre b, %d",i, b);}
+    else if(i < b){printf("\nLe nombre i %d est plus petit que le nombre b, %d",i, b);}
+    else if(i = b){printf("\nLe nombre i %d est égal au nombre b %d \n\n\n",i, b);}
+    return 0;
+}
